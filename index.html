@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="logo" href="assets/logo/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="background"></div>
+
+    <h1 class="title">ROCK PAPER SCISSORS</h1>
+
+    <div class="frame">
+        <div class="game-info">
+            <h2>Computer's choice: <span id="computerChoice"></span></h2>
+            <img id="computerChoiceIcon" src="" alt="Computer Choice Icon" class="choice-icon">
+            <h2>User's choice: <span id="userChoice"></span></h2>
+            <img id="userChoiceIcon" src="" alt="User Choice Icon" class="choice-icon">
+            
+        </div>
+
+        <h2>Result: <span id="result"></span></h2>
+        
+        <div class="choices">
+            <img id="rock" src="assets/user/user-rock.png" alt="Rock" class="choice-icon">
+            <img id="paper" src="assets/user/user-paper.png" alt="Paper" class="choice-icon">
+            <img id="scissors" src="assets/user/user-scissors.png" alt="Scissors" class="choice-icon">
+        </div>
+    </div>
+
+    <audio id="clickSound" src="assets/sound/copy_9045428C-0940-46EF-999F-ADE31B0E02C3.mp3"></audio>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
